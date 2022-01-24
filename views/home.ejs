@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Game App
+        </title>
+    </head>
+    <body>
+        <h1 class='text'></h1>
+        <input type="text" class="input-box" placeholder="Input the text"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+        <script src="/js/main.js"></script>
+    </body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        * {
+            font-family: 'Anton', sans-serif;
+        }
+        html {
+            background-color: #000;
+        }
+        .text {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+        .input-box {
+            margin: 0;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: none transparent;
+            outline: none;
+            border: 1px solid #fff;
+            background-color: transparent;
+            text-align: center;
+            padding: 0.4% 2%;
+            color: #fff;
+        }
+    </style>
+</html>
